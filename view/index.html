@@ -1,0 +1,21 @@
+<!doctypehtml>
+<html>
+
+<head>
+  <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+  <div id="images"></div>
+</body>
+
+<script type="text/javascript" src="../src/imageController.js"></script>
+<script type="text/javascript">
+(function() {
+  var tags = 'london';
+  var script = document.createElement('script');
+  script.src = 'http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=cb&tags=' + tags;
+  document.head.appendChild(script);
+})();
+</script>
+</html>

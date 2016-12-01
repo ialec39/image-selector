@@ -1,0 +1,21 @@
+body, html {
+  height: 100%;
+  text-align: center;
+}
+
+body, h1, h2 {
+  font-family: "Raleway", sans-serif;
+  padding: 2em;
+}
+
+img {
+  height: 185px;
+  width: 185px;
+  margin: 2px;
+}
+
+.selected {
+  border: solid 1px red;
+  margin: 5px;
+  box-shadow: 0px 12px 22px 1px #333;
+}
